@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo_encabezado{
+    color: rgb(113, 47, 10);
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    font-size: xx-large;
+    font-family: 'Playwrite AU VIC', sans-serif
+}
+
+.buscador_encabezado{
+    width: 100%;
+    position: absolute;
+    left: 350px;
+    top:30px
+}
+
+.logos_encabezado{
+    width: 100%;
+    position: absolute;
+    left: 540px;
+}
+.menu {
+    background-color: rgb(182, 154, 118);
+    display: flex;
+    justify-content: flex-end; 
+    position: absolute;
+    top: 110px;
+    width: 1300px;
+    text-align: center;
+}
+
+.menu ul {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    background-color: rgb(199, 221, 204);
+    display: flex;
+    width: 1300px;
+    left: 300px;
+    top: 20px;
+}
+
+.menu ul li {
+    display: block; 
+    padding: 10px; 
+    background-color: rgb(182, 154, 118);
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    width: 50%;
+}
+
+.menu ul li:hover {
+    background-color: #ddd; 
+}
+
+.contenedor_portada{
+    position: absolute;
+    left: 300px;
+    top: 60px;
+}
+.portada{
+    display: flex;
+    width: 1300px;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.descripcion{
+    position: absolute;
+    width: 1300px;
+    height: 300px;
+    color: white;
+    font-size: 35px;
+    top: 120px;
+    left: 300px;
+    z-index: 1;
+    font-weight: bolder;
+}
+.descripcion_nota{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 120px;
+    left: 450px;
+    font-style: italic;
+}
+
+.recomendaciones{
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    align-items: center;
+}
+.titulo_recomendaciones{
+    position: absolute;
+    color: rgb(113, 47, 10);
+    font-weight: bolder;
+    top: -70px;
+    left: -200px;
+}
+
+.catalogo_recomendaciones{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: -100px;
+}
+
+.titulo_libro{
+    position: relative;
+    justify-content: flex-end; 
+    font-weight: bolder;
+    align-items: center;
+}
+
+.autor_libro{
+    position: relative;
+    justify-content: flex-end; 
+    font-weight: bolder;
+    align-items: center;
+}
+
+button{
+    position: absolute;
+    color: white;
+    background-color: rgb(182, 118, 118);
+    height: 25px;
+    width: 80px;
+    left: 100px;
+    top: 450px;
+}
+.recomendacion{
+    position: relative;
+    align-content: center;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    margin-right: 10px;
+    padding: 100px 60px;
+    object-fit: cover;
+}
+
+.libros {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    position: absolute;
+    top: 1000px;
+}
+
+.titulo_libros{
+    position: relative;
+    color: rgb(113, 47, 10);
+    font-weight: bolder;
+    left: 300px;
+}
+
+.informacion{
+    position: relative;
+    top: 3000px;
+}
+
+.catalogo_libros {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    height: 500px;
+    margin-left: 240px;
+    margin-right: 400px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-margin-inline: 100px;
+}
+
+.libro {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    scroll-margin-inline: 10px;
+}
+
+.titulo_libro{
+    position: relative;
+    left: 100px;
+}
+.autor_libro{
+    position: relative;
+    left: 100px;
+}
+.precio_libro{
+    position: relative;
+    left: 100px;
+}
+.libro button{
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+.informacion{
+    position: relative;
+    left: 350px;
+    top: 550px;
+    margin: 10px;
+    align-content: center;
+    display: inline-block;
+}
+
+.titulo_pie{
+    color: rgb(113, 47, 10);
+    font-weight: bolder;
+}
+.informacion{
+    font-size: large;
+}
+
+.fin_pie{
+    color: rgb(113, 47, 10);
+    font-weight: bolder;
+    text-align: center;
+}
+.contenedor_libreria{
+    position: relative;
+    top: 300px;
+    left: 1000px;
+}
+
+.imagen_libreria{
+    width: 600px;
+    height: 400px;
+}
+
+.footer{
+    background-color: rgb(182, 154, 118);
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    top: 2000px;
+    width: 70%;
+    height: 40%;
+    left: 300px;
+    align-items: center;
+    display: flex;
+}
+
+.informacion_contacto{
+    position: relative;
+    left: 10px;
+    top: -55px;
+}
+.informacion_contacto h3{
+    position: relative;
+    left: 50px;
+}
+.informacion_contacto p{
+    position: relative;
+    left: 50px;
+}
+
+.informacion_contacto img{
+    position: relative;
+    top: 30px;
+}
+
+.informacion_negocio{
+    position: relative;
+    left: 200px;
+    top: -60px;
+}
+.informacion_negocio ul{
+    position: relative;
+}
+.informacion_negocio ul li{
+    list-style-type: none; 
+    padding: 5px;
+
+}
+.suscripcion{
+    position: relative;
+    left: 350px;
+    top: -140px;
+}
+.email_box{
+    position: relative;
+    top: 10px;
+}
+
+.submit_email{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+
+.email{
+    position: relative;
+    width: 220px;
+}
+
+.copyright{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    right: 350px;
+}
